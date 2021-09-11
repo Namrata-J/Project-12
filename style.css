@@ -1,0 +1,72 @@
+body{
+    margin: 0px;
+    background-image: url(../images/coin.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+h1{
+    text-align: center;
+    color: rgb(233, 232, 230);
+    text-shadow: 0px 0px 7px black;
+}
+label, input{
+    display: block;
+}
+label{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 0.9rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    color: rgb(92, 51, 48);
+    text-shadow: 0px 0px 5px rgb(58, 40, 40);
+    color:rgb(197, 82, 82)
+}
+input{
+    width: 230px;
+    margin: auto;
+    border: none;
+    border-radius: 0.3rem;
+    padding: 0.4rem;
+    text-align: center;
+}
+button{
+    display: block;
+    width: 70px;
+    margin: auto;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    border-radius: 00.5rem;
+}
+button:hover{
+    background-color: rgb(197, 126, 79);
+}
+output{
+    display: block;
+    text-align: center;
+    margin-top: 5rem;
+    font-size: 1rem;
+    padding: 2rem;
+}
+.container{
+    max-width: 400px;
+    margin: auto;
+    background-color: rgba(7, 7, 7, 0.7);
+    border-radius: 2rem;
+    font-family: sans-serif;
+}
+footer{
+    height: 110px;
+    text-align: center;
+    background-color: rgba(14, 13, 13, 0.7);
+    margin-top: 8rem;
+    color: white;
+    font-family: sans-serif;
+    font-size: 0.9rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+footer p{
+    padding-top: 2rem;
+}
