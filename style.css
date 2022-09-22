@@ -1,72 +1,92 @@
-body{
-    margin: 0px;
-    background-image: url(../images/coin.png);
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-h1{
-    text-align: center;
-    color: rgb(233, 232, 230);
-    text-shadow: 0px 0px 7px black;
+
+body {
+    background-color: rgb(190, 213, 213);
 }
-label, input{
+
+img {
+    bottom: 0;
+    position: absolute;
+    height: 40vh;
+    z-index: -1;
+}
+
+h1 {
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+h1,
+label,
+input,
+button,
+output,
+footer {
     display: block;
-}
-label{
     text-align: center;
-    font-family: sans-serif;
+}
+
+label {
     font-size: 0.9rem;
     font-weight: bold;
-    margin-top: 1rem;
-    color: rgb(92, 51, 48);
-    text-shadow: 0px 0px 5px rgb(58, 40, 40);
-    color:rgb(197, 82, 82)
+    margin: 1rem 0rem 0.5rem 0rem;
 }
-input{
-    width: 230px;
+
+input,
+button {
     margin: auto;
+}
+
+input {
     border: none;
-    border-radius: 0.3rem;
-    padding: 0.4rem;
-    text-align: center;
+    border-radius: 0.2rem;
+    padding: 0.5rem 0.7rem;
+    width: 15rem;
 }
-button{
-    display: block;
-    width: 70px;
-    margin: auto;
+
+button {
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 0.2rem;
     margin-top: 1rem;
-    padding: 0.5rem;
-    border-radius: 00.5rem;
+    padding: 0.5rem 0.7rem;
 }
-button:hover{
-    background-color: rgb(197, 126, 79);
+
+button:hover {
+    background: rgba(0, 0, 0, 0.2);
+    cursor: pointer;
 }
-output{
-    display: block;
-    text-align: center;
-    margin-top: 5rem;
-    font-size: 1rem;
-    padding: 2rem;
-}
-.container{
-    max-width: 400px;
-    margin: auto;
-    background-color: rgba(7, 7, 7, 0.7);
-    border-radius: 2rem;
-    font-family: sans-serif;
-}
-footer{
-    height: 110px;
-    text-align: center;
-    background-color: rgba(14, 13, 13, 0.7);
-    margin-top: 8rem;
-    color: white;
-    font-family: sans-serif;
+
+output {
     font-size: 0.9rem;
-    border-top-left-radius: 1rem;
-    border-top-right-radius: 1rem;
+    margin-top: 5rem;
+    padding: 2rem 1rem;
 }
-footer p{
-    padding-top: 2rem;
+
+.container {
+    background-color: rgba(7, 7, 7, 0.4);
+    border-radius: 0.3rem;
+    max-width: 15rem;
+    margin: auto;
+}
+
+.output-content {
+    color: rgb(255, 255, 255);
+}
+
+footer {
+    background-color: rgba(7, 7, 7, 0.4);
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}
+
+footer p {
+    padding: 1rem;
 }
